@@ -1,4 +1,3 @@
-```javascript
 // Login Google e geração do desenho pelo servidor.
 
 const CLIENT_ID =
@@ -143,4 +142,3 @@ botaoBaixar.addEventListener("click", () => {
 
   URL.revokeObjectURL(url);
 });
-```
