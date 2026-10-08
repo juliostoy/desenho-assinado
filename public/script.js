@@ -82,7 +82,7 @@ formulario.addEventListener("submit", async (evento) => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": `Bearer ${tokenGoogle}`
+        "Authorization": "Bearer " + tokenGoogle
       },
       body: JSON.stringify({ numero })
     });
